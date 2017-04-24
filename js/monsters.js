@@ -74,12 +74,24 @@ var MonsterView = Backbone.View.extend({
 		// return this.$el;
 	},
 	events:{click:"click"},
-	click:function()
+	click:function()//click on monster token
 	{
-		console.log("set: "+this.model.get("name")+": as selected Monster")
-		game.selected = this.model
-		game.state = game.move
-		tablero.reDraw();
+
+		switch(game.state)
+		{
+			case game.main:
+			console.log("set: "+this.model.get("name")+": as selected Monster")
+			game.selected = this.model
+			game.state = game.move
+			tablero.reDraw();
+			break
+			case game.summon://click on monster in deck
+			player1.summon(game.summonPosition,this.model)
+			game.state = game.main
+			modal.dialog("close")
+			tablero.reDraw();
+			break
+		}
 	}
 
 
