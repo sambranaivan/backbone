@@ -1,0 +1,149 @@
+*{
+	box-sizing: border-box;
+	font-family: verdana;
+}
+
+#tablero{
+	width: 600px;
+	height: 600px;
+	border: 1px solid grey;
+	margin: 0 auto;
+}
+
+.zone{
+	
+	width: calc(100%/9);
+	height: calc(100%/9);
+	float: left;
+	border: 1px solid black;
+
+}
+
+.odd{
+	background-color: grey;
+}
+.even{
+	background-color: #5C5A5A;
+}
+
+.nivel_1{
+	background-color: #00BEBE;
+}
+.nivel_2{
+	background-color: blue;
+	color: white;
+}
+.nivel_3{
+	background-color: green;
+}
+.nivel_4{
+	background-color: yellow;
+}
+.nivel_5{
+	background-color: orange;
+}
+.nivel_6{
+	background-color: red;
+}
+
+.summon{
+	cursor: pointer;
+}
+
+/*FICHA*/
+
+.ficha{
+	width: 100%;
+	height: 100%;
+}
+
+.ficha .tile{
+	width: calc(100%);
+	height: calc(100%);
+	float: left;
+}
+
+.tile img
+{
+	width: 100%;
+	height: 100%;
+}
+
+#deck{
+	display: none;
+}
+
+.monster{
+	width: 100%;
+	height: 100%;
+background-size: 100% 100%;
+}
+
+
+.in_zone{
+	width: 100%;
+	height: 100%;
+/*background: url('pics/octagono.png');*/
+background-size: 100% 100%;
+}
+
+.lifepoints{
+	width: 100%;
+	height: 20%;
+	float: left;
+	display: block;
+}
+
+.monster .lifepoints .corazon
+{
+	height: 100%;
+	width: calc(100%/5);
+	float: left;
+}
+.monster .lifepoints .corazon img{
+	width: 100%;
+}
+
+.monster .inset{
+	width: 100%;
+	height: 60%;
+	float: left;
+}
+
+.monster .stats{
+	width: 100%;
+	float: left;
+	height: 20%;
+	font-size: 10px;
+	  text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+
+}
+
+
+.monster .stats .atk, .monster .stats .def
+{
+	width: 50%;
+	float: left;
+	height: 100%;
+	text-align: center;
+}
+
+
+#deck{
+	display: none;
+	width: 600px;
+	height: 200px;
+}
+
+#deck .decktoken
+{
+	width: 64px;
+	height: 64px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+
+.move{
+	background-color: green;
+}

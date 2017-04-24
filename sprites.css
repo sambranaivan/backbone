@@ -1,0 +1,873 @@
+.sprite
+{
+	background: url('trozei/gen_1.png');
+	background-size: 1190%;
+
+}
+
+.sprite_master{
+	
+   background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*12);
+
+}
+.sprite_bulbasaur{
+
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+}
+.sprite_ivysaur{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_venusaur{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_venusaurmega{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_charmander{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_charmeleon{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_charizard{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_charizardmegax{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_charizardmegay{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_squirtle{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_wartortle{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_blastoise{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_blastoisemega{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_caterpie{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_metapod{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_butterfree{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_weedle{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_kakuna{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_beedrill{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_beedrillmega{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_pidgey{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_pidgeotto{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_pidgeot{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_pidgeotmega{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_rattata{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_raticate{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_spearow{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_fearow{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_ekans{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_arbok{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_pikachu{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_pikachucosplay{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_pikachurockstar{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_pikachubelle{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_pikachupopstar{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_pikachuphd{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_pikachulibre{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_raichu{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_sandshrew{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_sandslash{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_nidoranf{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_nidorina{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_nidoqueen{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_nidoranm{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_nidorino{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_nidoking{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_clefairy{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_clefable{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_vulpix{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_ninetales{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_jigglypuff{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_wigglytuff{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_zubat{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_golbat{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_oddish{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_gloom{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_vileplume{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_paras{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_parasect{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_venonat{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_venomoth{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_diglett{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_dugtrio{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_meowth{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_persian{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_psyduck{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_golduck{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_mankey{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_primeape{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_growlithe{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_arcanine{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_poliwag{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_poliwhirl{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_poliwrath{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_abra{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_kadabra{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_alakazam{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_alakazammega{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_machop{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_machoke{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_machamp{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_bellsprout{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_weepinbell{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_victreebel{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_tentacool{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_tentacruel{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_geodude{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_graveler{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_golem{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_ponyta{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_rapidash{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_slowpoke{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_slowbro{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_slowbromega{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_magnemite{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_magneton{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_farfetchd{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_doduo{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_dodrio{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_seel{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_dewgong{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_grimer{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_muk{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_shellder{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_cloyster{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_gastly{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_haunter{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_gengar{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_gengarmega{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_onix{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_drowzee{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_hypno{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_krabby{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_kingler{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_voltorb{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_electrode{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_exeggcute{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_exeggutor{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_cubone{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_marowak{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_hitmonlee{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_hitmonchan{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_lickitung{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_koffing{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_weezing{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_rhyhorn{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_rhydon{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_chansey{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_tangela{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_kangaskhan{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_kangaskhanmega{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_horsea{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_seadra{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_goldeen{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_seaking{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_staryu{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_starmie{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_mrmime{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_scyther{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_jynx{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_electabuzz{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_magmar{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_pinsir{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_pinsirmega{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_tauros{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_magikarp{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_gyarados{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_gyaradosmega{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_lapras{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_ditto{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_eevee{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_vaporeon{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_jolteon{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_flareon{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_porygon{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_omanyte{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_omastar{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_kabuto{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_kabutops{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_aerodactyl{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_aerodactylmega{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_snorlax{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_articuno{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_zapdos{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_moltres{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_dratini{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_dragonair{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_dragonite{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_mewtwo{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_mewtwomegax{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_mewtwomegay{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
+.sprite_mew{
+	 background-position-x: calc(-64px*0);
+   background-position-y: calc(-64px*0);
+
+}
