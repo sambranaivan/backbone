@@ -36,7 +36,7 @@ var dex = {
 		nivel:1,
 		atk:10,
 		def:15,
-		dir:[TOP,DOWN],
+		dir:[TOP,DOWN,LEFT,RIGHT],
 		hp:5,
 		name:"Pikachu",
 		sprite:"trozei/025.png"

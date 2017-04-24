@@ -93,15 +93,14 @@ var Board = Backbone.Model.extend({
 		var t = this.get("tablero_move");
 		if (game.selected instanceof Monster) 
 		{
+			afectedZones = game.selected.afectedZones()
 			for (var i = t.length - 1; i >= 0; i--) {
 				for (var j = t[i].length - 1; j >= 0; j--) {
 					
-					afectedZones = game.selected.afectedZones()
 					for (var k = afectedZones.length - 1; k >= 0; k--){
 						if (_.isEqual(afectedZones[k],[i,j])) 
 						{t[i][j] = true}
- 						else
- 						{t[i][j] = false}
+
 					}
 
 				}
@@ -184,6 +183,7 @@ var Board = Backbone.Model.extend({
 		_tab[from[0]][from[1]] = 0;
 
 		this.set("tablero_monster",_tab);
+		game.state = game.main
 		this.reDraw();			
 		}
 
@@ -192,6 +192,7 @@ var Board = Backbone.Model.extend({
 	cleanlevels: function()
 	{
 		this.set("tablero_level",new emptyTablero())
+		this.set("tablero_move",new emptyTablero())
 	},
 	reDraw:function(){
 		console.log("reDraw()")
@@ -244,6 +245,14 @@ var Board = Backbone.Model.extend({
 
 							}))
 						})
+			})
+
+			$(".move").click(function(){
+				x = parseInt($(this).attr("row"))
+				y = parseInt($(this).attr("col"))
+				from = game.selected.get("position")
+				tablero.move(from,[x,y])
+
 			})
 
 

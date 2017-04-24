@@ -1,5 +1,9 @@
 var Monster = Backbone.Model.extend({
-	initialize: function(){},
+	initialize: function(){
+		this.on("change:position",function(){
+			console.log(this.get("name")+" Positon change to"+this.get("position"))
+		})
+	},
 	defaults:{
 		atk:0,def:0,hp:0,dir:[],owner:null,position:[0,0]
 	},
@@ -12,29 +16,13 @@ var Monster = Backbone.Model.extend({
 		return (view.el)
 	},
 	canMove:true,
-	move:function(dir)
-	{
-		from = this.get("position")
-		switch(dir)
-		{
-			case TOP:
-			to = [from[0]-1,from[1]]
-			tablero.move(from,to)
-			break;
-			case LEFT:
-			break;
-			case RIGHT:
-			break;
-			case DOWN:
-			break;
-		}
-	},
+	
 	afectedZones:function()
 	{
 		var ret =  new Array();
-		dir = this.get("dir")
-		x = this.get("position")[0]
-		y = this.get("position")[1]
+		var dir = this.get("dir")
+		var x = this.get("position")[0]
+		var y = this.get("position")[1]
 		for (var i = 0; i < dir.length; i++) {
 			switch (dir[i])
 			{
@@ -64,7 +52,8 @@ var Monster = Backbone.Model.extend({
 					break;
 			}
 		}
-
+		// console.log("afectedZones")
+		console.log(ret)
 		return ret
 	}
 

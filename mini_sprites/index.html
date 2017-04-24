@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		#wrapper{
+			width:  600px;
+			float: left;
+			border: 1px solid black;
+		}
+
+		.side{
+			width: 50%;
+			float: left;
+		}
+
+		.sprite{
+			width:  100%;
+			float: left;
+		}
+
+		.sprite img{
+			image-rendering: pixelated;
+			width: 100%;
+			-webkit-filter: contrast(1.1);
+			/**/
+		}
+
+		.flip img{
+			transform: scaleX(-1);
+		}
+
+	</style>
+
+</head>
+<body>
+	<div id="wrapper">
+		<div class="side flip">
+			<div class="sprite">
+				<img src="003.png" alt="">
+			</div>
+			<div class="sprite">
+				<img src="006.png" alt="">
+			</div>
+			<div class="sprite">
+				<img src="009.png" alt="">
+			</div>
+			<div class="sprite">
+				<img src="154.png" alt="">
+			</div>
+			<div class="sprite">
+				<img src="157.png" alt="">
+			</div>
+			<div class="sprite">
+				<img src="160.png" alt="">
+			</div>
+		</div>
+		<div class="side">
+			<div class="sprite">
+				<img src="254.png" alt="">
+			</div>
+			<div class="sprite">
+				<img src="257.png" alt="">
+			</div>
+			<div class="sprite">
+				<img src="260.png" alt="">
+			</div>
+			<div class="sprite">
+				<img src="389.png" alt="">
+			</div>
+			<div class="sprite">
+				<img src="392.png" alt="">
+			</div>
+			<div class="sprite">
+				<img src="395.png" alt="">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
