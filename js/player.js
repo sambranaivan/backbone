@@ -29,6 +29,7 @@ summon:function(i,j,cid)
 	// quito al montruo del deck 
 	this.get("deck").remove(_m)
 	// lo agrego al tablero
+	_m.set({position:[i,j]})
 	tablero.addMonster(i,j,_m)
 	// no return
 	// trigger
