@@ -8,6 +8,7 @@ var DOWNLEFT = 7;
 var DOWNRIGHT = 8;
 
 
+
 var dex = {
 	"master":
 	{
@@ -71,6 +72,15 @@ var dex = {
 		dir:[TOPLEFT,TOPRIGHT,DOWNLEFT,DOWNRIGHT,TOP,LEFT,RIGHT,DOWN],
 		name:"jirachi",
 		sprite:"trozei/385.png"
+	},
+	"raikou":
+	{		
+		nivel:4,
+		atk:9,
+		def:8,
+		hp:7,
+		dir:[TOPLEFT,TOPRIGHT,DOWNLEFT,DOWNRIGHT,TOP,LEFT,RIGHT,DOWN],
+		sprite:"trozei/243.png"
 	}
 }
 

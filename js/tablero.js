@@ -226,6 +226,9 @@ var Board = Backbone.Model.extend({
 								height: 400,
 								width: 350,
 								modal: true,
+								close:function(){
+									game.state=game.main
+								}
 							})	
 
 
