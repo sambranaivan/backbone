@@ -6,6 +6,8 @@ var TOPLEFT = 5;
 var TOPRIGHT = 6;
 var DOWNLEFT = 7;
 var DOWNRIGHT = 8;
+var TOP2 = 9;
+
 
 
 var dex = {
@@ -71,6 +73,16 @@ var dex = {
 		dir:[TOPLEFT,TOPRIGHT,DOWNLEFT,DOWNRIGHT,TOP,LEFT,RIGHT,DOWN],
 		name:"jirachi",
 		sprite:"trozei/385.png"
+	},
+	"raikou":
+	{		
+		nivel:4,
+		atk:9,
+		def:8,
+		hp:7,
+		dir:[TOPLEFT,TOPRIGHT,DOWNLEFT,DOWNRIGHT,TOP,LEFT,RIGHT,DOWN,TOP2],
+		sprite:"trozei/243.png",
+		name:"raikou"
 	}
 }
 

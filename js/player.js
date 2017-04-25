@@ -22,15 +22,15 @@ initDeck:function(){
 
 },
 
-summon:function(i,j,cid)
+summon:function(pos,model)
 {
 	// obtengo monstruo del deck por cid
-	var _m = this.getMonster(cid)
+	// var _m = this.getMonster(cid)
+
 	// quito al montruo del deck 
-	this.get("deck").remove(_m)
+	this.get("deck").remove(model)
 	// lo agrego al tablero
-	_m.set({position:[i,j]})
-	tablero.addMonster(i,j,_m)
+	tablero.addMonster(pos[0],pos[1],model)
 	// no return
 	// trigger
 },

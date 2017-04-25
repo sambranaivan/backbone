@@ -1,7 +1,7 @@
 var tablero = new Board()
 var player1 = new Player()
 var enemy1 = new Player()
-var deck_array = ['pikachu','pichu','raichu','jirachi']
+var deck_array = ['pikachu','pichu','raichu','jirachi','raikou']
 var pikachu = new Monster(dex.pikachu)
 var jirachi = new Monster(dex.jirachi)
 

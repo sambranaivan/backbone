@@ -1,9 +1,9 @@
 _BOARD_SIZE = 9;
-var game = {state:1,main:1,move:2,summon:3,effect:4,attack:5}
+var game = {state:1,main:1,move:2,summon:3,effect:4,attack:5,summonPosition:[0,0]}
 game.state = game.main
 game.selected = null
 game.target = null
-
+var modal 
 function emptyTablero(){
 
 	return [
@@ -53,9 +53,10 @@ var Board = Backbone.Model.extend({
 				if (typeof(monster) == "object") 
 				{
 					
-					if (monster.get("side") == 1) 
+					if (monster.get("owner") == player1) 
 					{
 						if (monster.get("dir").indexOf(TOP) != -1 && i>0) {this.zoneLevel((i-1),j)}
+							if (monster.get("dir").indexOf(TOP2) != -1 && i>1) {this.zoneLevel((i-2),j)}
 						if (monster.get("dir").indexOf(DOWN) != -1 && i<8) {this.zoneLevel((i+1),j)}
 						if (monster.get("dir").indexOf(LEFT) != -1 && j>0) {this.zoneLevel(i,(j-1))}
 						if (monster.get("dir").indexOf(RIGHT) != -1 && j<8) {this.zoneLevel(i,(j+1))}
@@ -68,12 +69,14 @@ var Board = Backbone.Model.extend({
 					{
 						if (monster.get("dir").indexOf(DOWN) != -1 && i>0) {this.zoneLevel((i-1),j)}
 						if (monster.get("dir").indexOf(TOP) != -1 && i<8) {this.zoneLevel((i+1),j)}
+							if (monster.get("dir").indexOf(TOP2) != -1 && i<7) {this.zoneLevel((i+2),j)}
 						if (monster.get("dir").indexOf(RIGHT) != -1 && j>0) {this.zoneLevel(i,(j-1))}
 						if (monster.get("dir").indexOf(LEFT) != -1 && j<8) {this.zoneLevel(i,(j+1))}
 						if (monster.get("dir").indexOf(DOWNRIGHT) != -1 && i>0 && j>0) {this.zoneLevel((i-1),(j-1))}
 						if (monster.get("dir").indexOf(DOWNLEFT) != -1 && i>0 && j<8) {this.zoneLevel((i-1),(j+1))}
 						if (monster.get("dir").indexOf(TOPRIGHT) != -1 && i<8 && j>0) {this.zoneLevel((i+1),(j-1))}
 						if (monster.get("dir").indexOf(TOPLEFT) != -1 && i<8 && j<8) {this.zoneLevel((i+1),(j+1))}	
+
 					}
 				}
 			}
@@ -205,17 +208,19 @@ var Board = Backbone.Model.extend({
 
 						var _self = this//super this
 			$(".summon").click(function(){
+						game.state = game.summon
 						//obtener coordenadas del tablero
 						var t = $(this)//shorthand
-						var i = t.attr("row")
-						var j = t.attr("col")
+						var i = parseInt(t.attr("row"))
+						var j = parseInt(t.attr("col"))
+						game.summonPosition = [i,j];//update position of summon
 						var nivel = parseInt(t.attr("level"))
 							//Mostrar lista de invocaciones posibles
 						// console.log("summon list level:"+nivel)
 						// console.log(Player.deck.where({nivel:nivel}))
 						var summon_collection = player1.getLevel(nivel)
 
-						var modal = $("#deck").html("")
+						modal = $("#deck").html("")
 
 						// Abrir Menu de Invocacion
 						modal.dialog(
@@ -224,26 +229,18 @@ var Board = Backbone.Model.extend({
 								height: 400,
 								width: 350,
 								modal: true,
+								close:function(){
+									game.state=game.main
+								}
 							})	
 
 
 
 						_.each(summon_collection,function(model,index){
 							var item = $("<div></div>").addClass("decktoken")
-
-
 							item.first().html(model.render())
-
-							$("#deck").append(item.click(function(){
-								modal.dialog("close")
-								var cid = model.cid
-								console.log("addMonster "+model.cid+" to ["+i+","+j+"]")
-								// _self.addMonster(i,j,player1.deck.get({cid:cid}))
-								player1.summon(i,j,cid)
-
-
-
-							}))
+							$("#deck").append(item)
+							
 						})
 			})
 

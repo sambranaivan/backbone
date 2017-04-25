@@ -1,0 +1,7 @@
+diseño de las fichas donde diga
+-stadisticas
+-nivel
+-matriz de movimiento
+-distinguir entre fichas propias y del oponente
+-sistema de dados
+
