@@ -11,6 +11,10 @@ var Monster = Backbone.Model.extend({
 	{
 		this.set({owner:ow})
 	},
+	getOwner:function()
+	{
+		return this.get("owner")
+	},
 	render:function(){
 		var view = new MonsterView({model:this})
 		return (view.el)

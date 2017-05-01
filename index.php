@@ -51,7 +51,7 @@
 	</script>
 
 	<script id="playerHud" type="text/template">
-	
+		Action Points: <%= actionPoints%>
 	</script>
 
 	<!-- //TEMPLATE -->

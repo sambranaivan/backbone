@@ -1,6 +1,6 @@
 var tablero = new Board()
-var player1 = new Player()
-var enemy1 = new Player()
+var player1 = new Player({name:"player1"})
+var enemy1 = new Player({name:"Enemigo"})
 var deck_array = ['pikachu','pichu','raichu','jirachi','raikou']
 var pikachu = new Monster(dex.pikachu)
 var jirachi = new Monster(dex.jirachi)
@@ -19,7 +19,7 @@ jirachi.setOwner(enemy1)
 tablero.addMonster(0,4,jirachi)
 tablero.addMonster(8,4,pikachu)
 
-
+player1.render();
 
 
 		

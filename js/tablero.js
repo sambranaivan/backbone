@@ -248,6 +248,9 @@ var Board = Backbone.Model.extend({
 				x = parseInt($(this).attr("row"))
 				y = parseInt($(this).attr("col"))
 				from = game.selected.get("position")
+				owner = game.selected.getOwner()
+				owner.useActionPoint(1)
+
 				tablero.move(from,[x,y])
 
 			})

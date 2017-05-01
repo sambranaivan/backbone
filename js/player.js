@@ -14,6 +14,9 @@ this.on("change:deck_string",function(){
 
 	}
 })
+// this.render()
+
+ this.listenTo(this, 'change', this.render);
 },
 defaults:{
 actionPoints:6,
@@ -30,6 +33,7 @@ summon:function(pos,model)
 	// quito al montruo del deck 
 	this.get("deck").remove(model)
 	// lo agrego al tablero
+	// this.useActionPoint(1);
 	tablero.addMonster(pos[0],pos[1],model)
 	// no return
 	// trigger
@@ -46,7 +50,8 @@ getMonster:function(cid)
 	// return: model:monster
 },
 useActionPoint:function(c){
-	ap = this.get("actionPoints")-c
+	ap = this.get("actionPoints")
+	ap = ap-c
 	this.set({actionPoints:ap})
 },
 hasActionPoints:function()
@@ -59,6 +64,12 @@ hasActionPoints:function()
 	{
 		return false
 	}
+},
+render:function()
+{
+	console.log("RENDER")
+	var view = new PlayerView({model:this})
+	$("#hud").html(view.el)
 }
 
 
@@ -67,6 +78,14 @@ hasActionPoints:function()
 })
 
 var PlayerView = Backbone.View.extend({
+tagName:"div",className:"playerhud",
+initialize:function(){
+	this.template = _.template($("#playerHud").html())
+	this.render();
+},
+render:function()
+{
+	this.$el.html(this.template(this.model.attributes));
+}
 
-	
 })
