@@ -84,17 +84,28 @@ var MonsterView = Backbone.View.extend({
 
 					switch(game.state)
 					{
-						case game.main:
+						case game.main://click on monster en el tablero
+
+						if (player1.hasActionPoints()) 
+						{
+
 						console.log("set: "+this.model.get("name")+": as selected Monster")
-						game.selected = this.model
-						game.state = game.move
-						tablero.reDraw();				
+						game.selected = this.model //asignar el montruo seleccionado
+						game.state = game.move // cambio fase del juego
+						tablero.reDraw();//dibujo el tablero again	
+						}
+						else
+						{
+							alert("Dont Have Action Points")
+						}
+
+
 						break
 						case game.summon://click on monster in deck
-						player1.summon(game.summonPosition,this.model)
-						game.state = game.main
-						modal.dialog("close")
-						tablero.reDraw();
+						player1.summon(game.summonPosition,this.model)//
+						game.state = game.main//cambio la fase del juego
+						modal.dialog("close")//cierro menu de invocacion
+						tablero.reDraw();//dibujo el trablero again
 						break
 					}
 			}

@@ -16,7 +16,7 @@ this.on("change:deck_string",function(){
 })
 },
 defaults:{
-
+actionPoints:6,
 },
 initDeck:function(){
 
@@ -44,9 +44,29 @@ getMonster:function(cid)
 {
 	return this.get("deck").get({cid:cid})
 	// return: model:monster
+},
+useActionPoint:function(c){
+	ap = this.get("actionPoints")-c
+	this.set({actionPoints:ap})
+},
+hasActionPoints:function()
+{
+	if (this.get("actionPoints")>0) 
+	{
+		return true
+	}
+	else
+	{
+		return false
+	}
 }
 
 
 
 
+})
+
+var PlayerView = Backbone.View.extend({
+
+	
 })

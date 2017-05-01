@@ -186,7 +186,7 @@ var Board = Backbone.Model.extend({
 		_tab[from[0]][from[1]] = 0;
 
 		this.set("tablero_monster",_tab);
-		game.state = game.main
+		game.state = game.main//vuelvo a la fase main
 		this.reDraw();			
 		}
 

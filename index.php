@@ -22,6 +22,9 @@
 	
 </head>
 <body>
+<div id="hud">
+	
+</div>
 	<div id="tablero">
 			<!-- Contenedor del Tablero -->
 	</div>
@@ -45,6 +48,10 @@
 				<div class="atk">A:<%= atk%></div>
 				<div class="def">D:<%= def%></div>
 			</div>
+	</script>
+
+	<script id="playerHud" type="text/template">
+	
 	</script>
 
 	<!-- //TEMPLATE -->

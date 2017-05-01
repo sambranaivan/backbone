@@ -147,3 +147,11 @@ background-size: 100% 100%;
 .move{
 	background-color: green;
 }
+
+/*HUD*/
+#hud{
+	width: 200px;
+	height: 600px;
+	float: left;
+	background-color: #D9F8FF;
+}
